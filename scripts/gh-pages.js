@@ -1,5 +1,11 @@
 import ghpages from "gh-pages";
 
-ghpages.publish("./dist", { remote: "upstream", message: "Deployed" }, () => {
-  console.log("Deploy successfully");
-});
+ghpages.clean();
+
+ghpages.publish(
+  "./dist",
+  { remote: "upstream", message: "Deployed", branch: "gh-pages" },
+  () => {
+    console.log("Deploy successfully");
+  }
+);
