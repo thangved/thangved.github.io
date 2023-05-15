@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kim Minh Thang - Fullstack web developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="w-full min-h-[100vh] bg-gray-50 p-5">
+      <div
+        class="w-full max-w-[1024px] mx-auto p-5 bg-white rounded-xl border h-full flex flex-wrap"
+      >
+        <div class="md:w-[30%] w-full px-2">
+          <div class="sticky top-5 text-center items-center flex flex-col">
+            <div class="relative my-5">
+              <img
+                src="/avatar.jpeg"
+                class="rounded-full w-full max-w-[150px]"
+                alt="Kim Minh Thang"
+              />
+              <span
+                class="block absolute bottom-0 left-1/2 py-2 px-4 text-white rounded-full border-2 border-white translate-y-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-500 to-violet-500 text-xs font-bold"
+              >
+                @thangved
+              </span>
+            </div>
+
+            <h5 class="font-bold text-xl my-2 uppercase">Kim Minh Thắng</h5>
+
+            <p>
+              Hi <span class="animate-bounce inline-block">👋️</span>, I'm a
+              Fullstack web developer
+            </p>
+          </div>
+        </div>
+
+        <div class="md:w-[70%] w-full sticky top-5">
+          <h2
+            class="text-lg font-bold my-2 py-2 border-b bg-white sticky top-0"
+          >
+            Summary
+          </h2>
+
+          <p class="text-justify leading-loose">
+            My name is Kim Minh Thang, I have over 3 year experience in
+            programing. My strengths are <strong>frontend</strong> technology
+            and <strong>backend</strong> web application development.
+          </p>
+
+          <h2
+            class="text-lg font-bold my-2 py-2 border-b bg-white sticky top-0"
+          >
+            Contact information
+          </h2>
+
+          <table class="w-full">
+            <tbody>
+              <tr>
+                <td class="font-bold py-1">Fullname</td>
+
+                <td class="py-1">Kim Minh Thắng</td>
+              </tr>
+
+              <tr>
+                <td class="font-bold py-1">Nickname</td>
+
+                <td class="py-1">@thangved</td>
+              </tr>
+
+              <tr>
+                <td class="font-bold py-1">Email</td>
+
+                <td class="py-1">
+                  <a
+                    href="mailto:thangved02@gmail.com"
+                    class="text-blue-500 hover:underline"
+                  >
+                    thangved02@gmail.com
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="font-bold py-2">Github</td>
+
+                <td class="py-2">
+                  <a
+                    href="https://github.com/thangved"
+                    class="text-blue-500 hover:underline"
+                    target="_blank"
+                  >
+                    https://github.com/thangved
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="font-bold py-2">Facebook</td>
+
+                <td class="py-2">
+                  <a
+                    href="https://fb.com/thangved"
+                    class="text-blue-500 hover:underline"
+                    target="_blank"
+                  >
+                    https://fb.com/thangved
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2
+            class="text-lg font-bold my-2 py-2 border-b bg-white sticky top-0"
+          >
+            Education
+          </h2>
+
+          <table class="w-full"></table>
+
+          <h2
+            class="text-lg font-bold my-2 py-2 border-b bg-white sticky top-0"
+          >
+            Technically
+          </h2>
+
+          <ul class="list-inside list-disc">
+            <li>Reactjs</li>
+            <li>Nextjs</li>
+            <li>Redux</li>
+            <li>Vuejs</li>
+            <li>Nodejs</li>
+            <li>Expressjs</li>
+            <li>Mongodb</li>
+            <li>Typescript</li>
+            <li>Web core (HTML, CSS & Javascript)</li>
+            <li>NoSQL & SQL</li>
+            <li>RESTful API</li>
+            <li>Linux</li>
+          </ul>
+
+          <h2
+            class="text-lg font-bold my-2 py-2 border-b bg-white sticky top-0"
+          >
+            Projects
+          </h2>
+
+          <ul class="list-inside list-disc" id="gh-repos"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
